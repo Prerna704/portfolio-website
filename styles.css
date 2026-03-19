@@ -237,6 +237,64 @@ body {
         0 0 26px rgba(168, 85, 247, 0.3);
 }
 
+/* Education timeline style */
+.timeline {
+    position: relative;
+    padding-left: 1.7rem;
+    margin-top: 1rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0.36rem;
+    top: 0.15rem;
+    bottom: 0.15rem;
+    width: 2px;
+    background: linear-gradient(180deg, rgba(168, 85, 247, 0.85), rgba(236, 72, 153, 0.9));
+    border-radius: 9999px;
+    opacity: 0.8;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 1.25rem;
+    padding-left: 1rem;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -0.42rem;
+    top: 0.35rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 9999px;
+    border: 2px solid #ebe5ff;
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.95), rgba(236, 72, 153, 0.95));
+    box-shadow: 0 0 12px rgba(168, 85, 247, 0.6);
+}
+
+.timeline-title {
+    font-weight: 700;
+    color: #f8fafc;
+    line-height: 1.2;
+}
+
+.timeline-duration {
+    color: #a5b4fc;
+    font-size: 0.88rem;
+    margin-top: 0.1rem;
+}
+
+.timeline-item p {
+    margin: 0.2rem 0;
+    color: #d4d4fc;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;

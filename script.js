@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
             category: 'fullstack',
             github: 'https://github.com/Prerna704/Food-Delivery.git',
             demo: 'https://food-delivery-five-dusky.vercel.app/',
-            image: 'https://via.placeholder.com/800x450.png?text=Food+Delivery+App'
+            image: 'https://s3-alpha.figma.com/hub/file/2900897751/b5ccf2b2-3e9a-490b-ac55-a94a768f767a-cover.png'
         },
         {
             id: 2,
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function () {
             category: 'fullstack',
             github: 'https://github.com/Prerna704/Blog-Website-2.0.git',
             demo: 'https://github.com/Prerna704/Blog-Website-2.0.git',
-            image: 'https://via.placeholder.com/800x450.png?text=Blog+Website'
+            image: 'https://htmlburger.com/blog/wp-content/uploads/2023/04/modern-website-design-examples.jpg'
         },
         {
             id: 3,
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function () {
             category: 'web',
             github: 'https://github.com/Prerna704/Online-Quiz-Application.git',
             demo: 'https://prerna704.github.io/Online-Quiz-Application/',
-            image: 'https://via.placeholder.com/800x450.png?text=Quiz+App'
+            image: 'https://cdn.vectorstock.com/i/500p/91/01/quiz-game-test-exam-answer-education-learning-vector-25839101.jpg'
         },
         {
             id: 4,
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
             category: 'web',
             github: 'https://github.com/Prerna704/E-Learning-Platform.git',
             demo: 'https://e-learning-platform-8iav.onrender.com',
-            image: 'https://via.placeholder.com/800x450.png?text=E-Learning+Platform'
+            image: 'https://img.freepik.com/premium-vector/elearning-flat-landing-page-website-template-video-tutorial_676904-10833.jpg?w=996'
         },
         {
             id: 5,
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function () {
             category: 'web',
             github: 'https://github.com/Prerna704/LOYALTY-REWARD-AND-MEMBERSHIP-MANAGEMENT.git',
             demo: 'https://prerna704.github.io/LOYALTY-REWARD-AND-MEMBERSHIP-MANAGEMENT/',
-            image: 'https://via.placeholder.com/800x450.png?text=Loyalty+Reward+System'
+            image: 'https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/803841184440271.65523e0e1dd20.png'
         },
         {
             id: 6,
@@ -178,8 +178,8 @@ document.addEventListener('DOMContentLoaded', function () {
             tags: ['HTML5', 'CSS3', 'JavaScript'],
             category: 'web',
             github: 'https://github.com/Prerna704/countdown-Timer.git',
-            demo: 'https://prerna704.github.io/countdown-Timer/',
-            image: 'https://via.placeholder.com/800x450.png?text=Countdown+Timer'
+            demo: 'https://countdown-timer-kkv4.vercel.app/',
+            image: 'https://thumbs.dreamstime.com/z/countdown-timer-design-website-clock-vector-illustration-eps-187143770.jpg'
         },
         {
             id: 7,
@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function () {
             category: 'web',
             github: 'https://github.com/Prerna704/Mood-Weather.git',
             demo: 'https://prerna704.github.io/Mood-Weather/',
-            image: 'https://via.placeholder.com/800x450.png?text=Mood+Weather+App'
+            image: 'https://cdn.dribbble.com/userupload/11691189/file/original-9e15f16591234c1364843746eb514624.png?format=webp&resize=1440x&vertical=center'
         },
         {
             id: 8,
@@ -198,8 +198,8 @@ document.addEventListener('DOMContentLoaded', function () {
             tags: ['React.js', 'Node.js', 'AI', 'Chatbot', 'API'],
             category: 'fullstack',
             github: 'https://github.com/Prerna704/Ai-Hotel-Booking-Assistance-chatBot-.git',
-            demo: 'https://prerna704.github.io/Ai-Hotel-Booking-Assistance-chatBot-/',
-            image: 'https://via.placeholder.com/800x450.png?text=AI+Hotel+ChatBot'
+            demo: 'https://ai-hotel-booking-assistance-chat-bo.vercel.app/',
+            image: 'https://miro.medium.com/v2/resize:fit:1080/1*rPdl5XZRg-mIPPp5Bcsy_w.jpeg'
         },
         {
             id: 9,
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', function () {
             category: 'maven',
             github: 'https://github.com/Prerna704/Maven_Project-TicTacToe-.git',
             demo: 'https://github.com/Prerna704/Maven_Project-TicTacToe-.git',
-            image: 'https://via.placeholder.com/800x450.png?text=Maven+TicTacToe'
+            image: 'https://tse2.mm.bing.net/th/id/OIP.Tpz--u6pNANlpcH8-bs6SQHaLM?rs=1&pid=ImgDetMain&o=7&rm=3'
         },
         {
             id: 10,
@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', function () {
             category: 'maven',
             github: 'https://github.com/Prerna704/Maven_Project-Calculator-.git',
             demo: 'https://github.com/Prerna704/Maven_Project-Calculator-.git',
-            image: 'https://via.placeholder.com/800x450.png?text=Maven+Calculator'
+            image: 'https://th.bing.com/th/id/OIP.uzkzjuU2ooMx4if5-BbmAwHaHa?w=184&h=184&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3'
         }
     ];
 
