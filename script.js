@@ -392,17 +392,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Download CV button
-    const downloadCvBtn = document.getElementById('download-cv');
-    if (downloadCvBtn) {
-        downloadCvBtn.addEventListener('click', function (e) {
-            e.preventDefault();
-            // In a real implementation, this would link to an actual CV file
-            alert('CV download would start here. In a real implementation, this would link to your CV file.');
-            // window.location.href = 'path-to-your-cv.pdf';
-        });
-    }
-
     // Add keyboard navigation
     document.addEventListener('keydown', function (e) {
         // Spacebar scrolls down (when not in input/textarea)
