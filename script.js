@@ -79,38 +79,41 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // -------- Certifications Modal --------
-    const viewCertificationsBtn = document.getElementById('view-certifications');
-    const certificationModal = document.getElementById('certification-modal');
-    const closeCertificationBtn = document.getElementById('close-certification');
+    // -------- Reusable Modal Setup --------
+    const setupModal = (triggerId, modalId, closeId) => {
+        const trigger = document.getElementById(triggerId);
+        const modal = document.getElementById(modalId);
+        const closeBtn = document.getElementById(closeId);
 
-    if (viewCertificationsBtn && certificationModal && closeCertificationBtn) {
-        viewCertificationsBtn.addEventListener('click', () => {
-            certificationModal.classList.remove('hidden');
+        if (!trigger || !modal || !closeBtn) return;
+
+        const closeModal = () => {
+            modal.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        };
+
+        trigger.addEventListener('click', () => {
+            modal.classList.remove('hidden');
             document.body.classList.add('overflow-hidden');
         });
 
-        closeCertificationBtn.addEventListener('click', () => {
-            certificationModal.classList.add('hidden');
-            document.body.classList.remove('overflow-hidden');
-        });
+        closeBtn.addEventListener('click', closeModal);
 
-        // Close modal on background click
-        certificationModal.addEventListener('click', e => {
-            if (e.target === certificationModal) {
-                certificationModal.classList.add('hidden');
-                document.body.classList.remove('overflow-hidden');
+        modal.addEventListener('click', e => {
+            if (e.target === modal) {
+                closeModal();
             }
         });
 
-        // Close modal on Escape key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && !certificationModal.classList.contains('hidden')) {
-                certificationModal.classList.add('hidden');
-                document.body.classList.remove('overflow-hidden');
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                closeModal();
             }
         });
-    }
+    };
+
+    setupModal('view-education', 'education-modal', 'close-education');
+    setupModal('view-certifications', 'certification-modal', 'close-certification');
 
     // (Skills section now uses static tags in HTML; no JS rendering needed)
     // The skill tags are handled via CSS and HTML markup in the Skills section.

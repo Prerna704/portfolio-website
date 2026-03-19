@@ -97,19 +97,70 @@ body {
 
 /* Skill tree connection lines */
 .skill-line {
+    position: absolute;
     display: block;
-    background: linear-gradient(90deg, rgba(126, 34, 206, 0.0), rgba(126, 34, 206, 0.4), rgba(126, 34, 206, 0.0));
+    background: linear-gradient(90deg, rgba(126, 34, 206, 0.15), rgba(168, 85, 247, 0.95), rgba(126, 34, 206, 0.15));
     border-radius: 9999px;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
 }
 
 .skill-line-horizontal {
     width: 10rem;
-    height: 0.25rem;
+    height: 0.22rem;
+    top: 2.4rem;
+    left: calc(50% - 5rem);
 }
 
 .skill-line-vertical {
-    width: 0.25rem;
-    height: 3rem;
+    width: 0.2rem;
+    height: 4rem;
+    left: calc(50% - 0.1rem);
+    top: 100%;
+}
+
+/* Helpers for branch lines inside positioned containers */
+.skill-line-branch-vertical {
+    width: 0.2rem;
+    height: 4rem;
+    top: 0;
+    left: calc(50% - 0.1rem);
+}
+
+.skill-line-branch-horizontal {
+    width: 9rem;
+    height: 0.22rem;
+    top: 0.3rem;
+    left: calc(50% - 4.5rem);
+}
+
+.skill-branch-point {
+    position: absolute;
+    border-radius: 50%;
+    width: 0.65rem;
+    height: 0.65rem;
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.95), rgba(99, 102, 241, 0.95));
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.7);
+}
+
+.skill-tree .skill-group {
+    position: relative;
+    padding-top: 1.3rem;
+    transition: transform 0.2s ease;
+}
+
+.skill-tree .skill-group:hover {
+    transform: translateY(-0.35rem);
+}
+
+.skill-branch-point-left {
+    top: 0.1rem;
+    left: calc(50% - 4.6rem);
+}
+
+.skill-branch-point-right {
+    top: 0.1rem;
+    left: calc(50% + 3.95rem);
 }
 
 @media (max-width: 768px) {
@@ -564,7 +615,8 @@ section {
 }
 
 /* Modal animations */
-#certification-modal {
+#certification-modal,
+#education-modal {
     animation: modalFadeIn 0.3s ease-out;
 }
 
