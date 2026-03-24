@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'CSS'],
             category: 'fullstack',
             github: 'https://github.com/Prerna704/Blog-Website-2.0.git',
-            demo: 'https://github.com/Prerna704/Blog-Website-2.0.git',
+            demo: 'https://blog-website-2-0-pve3.vercel.app/',
             image: 'https://htmlburger.com/blog/wp-content/uploads/2023/04/modern-website-design-examples.jpg'
         },
         {
